@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a3065123-82e4-4ea4-b457-98a130a072e9" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\repository" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="26T9eVtzHT4lCxTb6u3vMtsUoZt" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.laicr.filter" />
+      <recent name="com.laicr.controller" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\JavaWorkSpace\source\gateway-master\provider-gray" />
+      <recent name="D:\JavaWorkSpace\source\gateway-master" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.gray-8084">
+    <configuration name="CheckTailNoUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.laicr.util.CheckTailNoUtil" />
+      <module name="gateway-gray" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.laicr.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GateWayGrayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="gateway-gray" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.laicr.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.laicr.GateWayGrayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="gray-8083" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="provider-gray" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.laicr.ProviderGrayApplication" />
+      <option name="VM_PARAMETERS" value="-Dserver.port=8083" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="gray-8084" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="provider-gray" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.laicr.ProviderGrayApplication" />
+      <option name="VM_PARAMETERS" value="-Dserver.port=8084" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="prod-8081" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="provider" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.laicr.ProviderApplication" />
+      <option name="VM_PARAMETERS" value="-Dserver.port=8081" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="prod-8082" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
+      <module name="provider" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.laicr.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.laicr.ProviderApplication" />
+      <option name="VM_PARAMETERS" value="-Dserver.port=8082" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.CheckTailNoUtil" />
+      <item itemvalue="Spring Boot.prod-8081" />
+      <item itemvalue="Spring Boot.gray-8083" />
+      <item itemvalue="Spring Boot.gray-8084" />
+      <item itemvalue="Spring Boot.prod-8082" />
+      <item itemvalue="Spring Boot.GateWayGrayApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.GateWayGrayApplication" />
+        <item itemvalue="Spring Boot.prod-8082" />
+        <item itemvalue="Application.CheckTailNoUtil" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a3065123-82e4-4ea4-b457-98a130a072e9" name="Default Changelist" comment="" />
+      <created>1647436804802</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1647436804802</updated>
+      <workItem from="1647436806057" duration="3883000" />
+      <workItem from="1647496494928" duration="24725000" />
+      <workItem from="1647567311010" duration="10861000" />
+      <workItem from="1647589311033" duration="101000" />
+      <workItem from="1647592647145" duration="16358000" />
+      <workItem from="1647905571906" duration="754000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="413" y="200" width="1201" height="710" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1647597194103">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="413" y="200" width="1201" height="710" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1647597194103" />
+    <state x="718" y="155" key="#com.intellij.ide.util.MemberChooser" timestamp="1647609097025">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="718" y="155" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1647609097025" />
+    <state x="677" y="293" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1647516184769">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="677" y="293" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1647516184769" />
+    <state x="845" y="383" width="609" height="654" key="#xdebugger.evaluate" timestamp="1647598497708">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="845" y="383" width="609" height="654" key="#xdebugger.evaluate/0.0.1920.1040@0.0.1920.1040" timestamp="1647598497708" />
+    <state width="1291" height="582" key="DebuggerActiveHint" timestamp="1647609995957">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1291" height="582" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1647609995957" />
+    <state x="687" y="214" key="FileChooserDialogImpl" timestamp="1647437599979">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="687" y="214" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1647437599979" />
+    <state width="1867" height="253" key="GridCell.Tab.0.bottom" timestamp="1647611942183">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1867" height="253" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1647611942183" />
+    <state width="1867" height="253" key="GridCell.Tab.0.center" timestamp="1647611942183">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1867" height="253" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1647611942183" />
+    <state width="1867" height="253" key="GridCell.Tab.0.left" timestamp="1647611942183">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1867" height="253" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1647611942183" />
+    <state width="1867" height="253" key="GridCell.Tab.0.right" timestamp="1647611942183">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1867" height="253" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1647611942183" />
+    <state width="1867" height="253" key="GridCell.Tab.1.bottom" timestamp="1647611942183">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1867" height="253" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1647611942183" />
+    <state width="1867" height="253" key="GridCell.Tab.1.center" timestamp="1647611942183">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1867" height="253" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1647611942183" />
+    <state width="1867" height="253" key="GridCell.Tab.1.left" timestamp="1647611942183">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1867" height="253" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1647611942183" />
+    <state width="1867" height="253" key="GridCell.Tab.1.right" timestamp="1647611942183">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1867" height="253" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1647611942183" />
+    <state width="1867" height="253" key="GridCell.Tab.2.bottom" timestamp="1647611942183">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1867" height="253" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1647611942183" />
+    <state width="1867" height="253" key="GridCell.Tab.2.center" timestamp="1647611942183">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1867" height="253" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1647611942183" />
+    <state width="1867" height="253" key="GridCell.Tab.2.left" timestamp="1647611942183">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1867" height="253" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1647611942183" />
+    <state width="1867" height="253" key="GridCell.Tab.2.right" timestamp="1647611942183">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1867" height="253" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1647611942183" />
+    <state x="329" y="0" key="SettingsEditor" timestamp="1647935114451">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="329" y="0" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1647935114451" />
+    <state width="968" height="528" key="XDebugger.FullValuePopup" timestamp="1647609859724">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="968" height="528" key="XDebugger.FullValuePopup/0.0.1920.1040@0.0.1920.1040" timestamp="1647609859724" />
+    <state x="814" y="179" width="1032" height="740" key="find.popup" timestamp="1647587401523">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="814" y="179" width="1032" height="740" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1647587401523" />
+    <state x="532" y="237" key="run.anything.popup" timestamp="1647588379597">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="532" y="237" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1647588379597" />
+    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup" timestamp="1647599060249">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1647599060249" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/gateway-gray/src/main/java/com/laicr/filter/AddGrayLabelGateWayFilter.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/gateway-gray/src/main/java/com/laicr/filter/GrayReactiveLoadBalancerClientFilter.java</url>
+          <line>74</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/gateway-gray/src/main/java/com/laicr/filter/GrayReactiveLoadBalancerClientFilter.java</url>
+          <line>64</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/gateway-gray/src/main/java/com/laicr/loadbalancer/GrayLoadBalancer.java</url>
+          <line>137</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/gateway-gray/src/main/java/com/laicr/loadbalancer/GrayLoadBalancer.java</url>
+          <line>67</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/gateway-gray/src/main/java/com/laicr/filter/GrayReactiveLoadBalancerClientFilter.java</url>
+          <line>57</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/gateway-gray/src/main/java/com/laicr/loadbalancer/GrayLoadBalancer.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../../../repository/org/springframework/cloud/spring-cloud-gateway-core/2.2.2.RELEASE/spring-cloud-gateway-core-2.2.2.RELEASE-sources.jar!/org/springframework/cloud/gateway/filter/ReactiveLoadBalancerClientFilter.java</url>
+          <line>128</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../../../repository/org/springframework/cloud/spring-cloud-loadbalancer/2.2.2.RELEASE/spring-cloud-loadbalancer-2.2.2.RELEASE.jar!/org/springframework/cloud/loadbalancer/core/RoundRobinLoadBalancer.class</url>
+          <line>55</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/gateway-gray/src/main/java/com/laicr/filter/GrayReactiveLoadBalancerClientFilter.java</url>
+          <line>82</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/gateway-gray/src/main/java/com/laicr/filter/GrayReactiveLoadBalancerClientFilter.java</url>
+          <line>109</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/gateway-gray/src/main/java/com/laicr/filter/IgnoreReactiveLoadBalancerClientFilter.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/gateway-gray/src/main/java/com/laicr/filter/IgnoreReactiveLoadBalancerClientFilterFactory.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

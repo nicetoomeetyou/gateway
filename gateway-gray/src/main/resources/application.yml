@@ -1,0 +1,52 @@
+server:
+  port: 9082
+# 配置输出日志
+logging:
+  level:
+    org.springframework.cloud.gateway: TRACE
+    org.springframework.http.server.reactive: DEBUG
+    org.springframework.web.reactive: DEBUG
+    reactor.ipc.netty: DEBUG
+
+#开启端点
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+# 配置参考：https://www.cnblogs.com/babycomeon/p/11161073.html
+spring:
+  application:
+    name: gateway-gray
+  cloud:
+     nacos:
+       discovery:
+        server-addr: localhost:8848
+     gateway:
+       discovery:
+         locator:
+           enabled: true
+           lower-case-service-id: true
+       routes:
+
+         - id: provider
+           uri: lb://provider
+           predicates:
+             - Path=/provider/**
+             - Weight=group1, 2
+           filters:
+             #- StripPrefix=1
+             #- RewritePath=/gray/,/prod/
+
+
+         - id: provider-gray
+           uri: lb://provider
+           predicates:
+             - Path=/provider/**
+             - Weight=group1, 0
+           filters:
+             - AddRequestHeader=gray, true
+             #- AddGrayLabel
+
+
+
