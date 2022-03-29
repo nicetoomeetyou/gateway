@@ -10,9 +10,30 @@ spring:
   cloud:
     nacos:
       discovery:
-        server-addr: localhost:8848
+        server-addr: 192.168.0.104:8848
         metadata:
+          preserved.heart.beat.interval: 5000 #心跳间隔。时间单位:毫秒。心跳间隔
+          preserved.heart.beat.timeout: 4000 #心跳暂停。时间单位:毫秒。 即服务端6秒收不到客户端心跳，会将该客户端注册的实例设为不健康
+          preserved.ip.delete.timeout: 10000 #Ip超时删除。
           version: v1
+        heartBeatInterval: 5
+        heartBeatTimeout: 4
+        ipDeleteTimeout: 10
+    service-registry:
+      auto-registration:
+        enabled: true
   profiles: dev
 
 
+management:
+  endpoints:
+    web:
+      exposure:
+        include: service-registry
+      base-path: /actuator
+  endpoint:
+    serviceregistry:
+      enabled: true
+
+
+#https://blog.csdn.net/wo541075754/article/details/118538623?utm_medium=distribute.pc_aggpage_search_result.none-task-blog-2~aggregatepage~first_rank_ecpm_v1~rank_v31_ecpm-3-118538623.pc_agg_new_rank&utm_term=nacos%E4%B8%8B%E7%BA%BF%E5%91%BD%E4%BB%A4&spm=1000.2123.3001.4430
