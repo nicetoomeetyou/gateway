@@ -43,7 +43,7 @@ spring:
            uri: lb://provider
            predicates:
              - Path=/provider/**
-             - Weight=group1, 0
+             - Weight=group1, 8
            filters:
              - AddRequestHeader=gray, true
              #- AddGrayLabel
