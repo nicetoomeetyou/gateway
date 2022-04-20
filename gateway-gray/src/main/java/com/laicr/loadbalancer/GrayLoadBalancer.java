@@ -72,6 +72,8 @@ public class GrayLoadBalancer implements ReactorServiceInstanceLoadBalancer {
         Map<ServiceInstance,Integer> weightMap = new HashMap<>();
         Map<ServiceInstance,Integer> grayWeightMap = new HashMap<>();
         String gray=headers.getFirst("gray");
+        String stationNo=headers.getFirst("COURIER_STATION_NO");
+
         String maxVersion="";
 //        for (ServiceInstance instance : instances) {
 //            String version=instance.getMetadata().get("version");
@@ -96,7 +98,7 @@ public class GrayLoadBalancer implements ReactorServiceInstanceLoadBalancer {
             return getServiceInstanceEmptyResponse();
         }
 
-        WeightMeta<ServiceInstance> weightMeta = WeightRandomUtils.buildWeightMeta(Boolean.parseBoolean(gray)?grayWeightMap:weightMap);
+        WeightMeta<ServiceInstance> weightMeta = WeightRandomUtils.buildWeightMeta(Boolean.parseBoolean(gray)&&Boolean.parseBoolean(stationNo)?grayWeightMap:weightMap);
 
         ServiceInstance serviceInstance = weightMeta.random();
         if(ObjectUtils.isEmpty(serviceInstance)){

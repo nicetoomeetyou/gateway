@@ -1,5 +1,6 @@
 package com.laicr.filter;
 
+import com.google.common.collect.Lists;
 import com.laicr.loadbalancer.GrayLoadBalancer;
 import com.laicr.util.CheckTailNoUtil;
 import org.apache.commons.lang3.StringUtils;
@@ -56,6 +57,7 @@ public class GrayReactiveLoadBalancerClientFilter implements GlobalFilter, Order
         URI url = (URI)exchange.getAttribute(ServerWebExchangeUtils.GATEWAY_REQUEST_URL_ATTR);
         String schemePrefix = (String)exchange.getAttribute(ServerWebExchangeUtils.GATEWAY_SCHEME_PREFIX_ATTR);
 
+
         //灰度参数
         if (enterGray(exchange) && url != null && ("lb".equals(url.getScheme()) || "lb".equals(schemePrefix))) {
             ServerWebExchangeUtils.addOriginalRequestUrl(exchange, url);
@@ -99,6 +101,7 @@ public class GrayReactiveLoadBalancerClientFilter implements GlobalFilter, Order
         Set<String> tailNoSet= new HashSet<>(Arrays.asList(TAIL_NO.split(",")));
         Set<String> courierStationNoSet= new HashSet<>(Arrays.asList(COURIER_STATION_NO.split(",")));
         if(courierStationNoSet.contains(courierStationNo) || CheckTailNoUtil.checkTailNo(courierStationNo, tailNoSet)){
+            exchange.getRequest().mutate().header("COURIER_STATION_NO","true");
             return true;
         }
         return false;
